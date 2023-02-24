@@ -1,6 +1,6 @@
 /*!
   * Bootstrap collapse.js v5.2.0-beta1 (https://getbootstrap.com/)
-  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 (function (global, factory) {
@@ -45,12 +45,12 @@
   const SELECTOR_ACTIVES = '.collapse.show, .collapse.collapsing';
   const SELECTOR_DATA_TOGGLE = '[data-bs-toggle="collapse"]';
   const Default = {
-    toggle: true,
-    parent: null
+    parent: null,
+    toggle: true
   };
   const DefaultType = {
-    toggle: 'boolean',
-    parent: '(null|element)'
+    parent: '(null|element)',
+    toggle: 'boolean'
   };
   /**
    * Class definition
